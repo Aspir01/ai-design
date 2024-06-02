@@ -52,3 +52,18 @@ main {
   flex-direction: column;
   justify-content: space-between;
 }
+
+@media (max-width: 1000px) {
+
+  .App {
+    justify-content: center;
+  }
+
+  .left-block {
+    display: none;
+  }
+
+  .main {
+    width: 100%;
+  }
+}

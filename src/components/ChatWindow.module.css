@@ -67,3 +67,12 @@
 .btnTwo {
     margin-left: 20px;
 }
+
+@media (max-width: 1000px) {
+
+    .user {
+        min-width: 0px;
+    }
+
+    ;
+}
