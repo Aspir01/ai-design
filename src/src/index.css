@@ -61,13 +61,13 @@ main {
   justify-content: space-between;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
 
   main {
     width: 100%;
   }
 
   .left-block {
-    display: none;
+    display: none !important;
   }
 }
